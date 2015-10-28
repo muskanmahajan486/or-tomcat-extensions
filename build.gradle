@@ -1,0 +1,17 @@
+apply plugin: "java"
+
+// TODO Must compile with JDK 1.7 http://www.draconianoverlord.com/2014/04/01/jdk-compatibility.html
+sourceCompatibility = 1.7
+version = projectVersion
+
+repositories {
+    jcenter();
+    mavenCentral()
+}
+
+dependencies {
+
+    compile "org.apache.tomcat:tomcat-catalina:7.0.65"
+
+}
+
